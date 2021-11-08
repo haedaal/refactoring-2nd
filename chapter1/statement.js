@@ -43,4 +43,8 @@ function statement(invoice, plays) {
   return result;
 }
 
-module.exports = { statement };
+function htmlStatement(invoice, plays) {
+  throw new Error("not implemented yet");
+}
+
+module.exports = { statement, htmlStatement };
